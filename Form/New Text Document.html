@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <meta charset="utf-8">
+	<title>Upload</title>
+	<style>
+    select {
+    	font-size: 16px;
+        width: 89%;
+        margin: 0px;
+
+    }
+    select:focus {
+        min-width: 89%;
+        width: auto;
+
+    }
+    .my-form input[type="text"], .my-form textarea {
+	padding:6px;
+	width: 87%;
+	font-size:16px;
+    }
+    .my-form td{
+    	font-size: 16px;
+    }
+
+</style>
+</head>
+<body background="Essential-Books.jpg" opacity="0.8">
+	<center><font color= "white" style="monospace" size="75" ><h1 bgcolor="#000000">The Notes Gallery</h1></center>
+	<form class="my-form" action="notegallery1234@gmail.com" method="post" enctype="text/plain">
+		<table cellpadding="2" width="60%" bgcolor="#000" align="center" border="2" cellspacing="2">
+			<b><tr><td colspan="2"><font size="10"><center>Uploading Details</center></font></td></tr>
+			</b>
+			<tr><td>Name</td>
+				<td><input type="text" name="textnames" id="textnames" size="40">
+				</td>
+			</tr>
+			<tr><td>Subject</td>
+				<td><input type="text" name="textnames" id="textnames" size="40">
+				</td>
+			</tr>
+			<tr><td>Topic</td>
+				<td><input type="text" name="textnames" id="textnames" size="40">
+				</td>
+			</tr>
+			<tr><td>Person</td>
+				<td><select name="person" >
+					<option value="-1" selected="">Select</option>
+					<option value="Student">Student</option>
+					<option value="Teacher">Teacher</option>
+				</select>
+				</td>
+			</tr>
+			<tr><td>Refrence</td>
+				<td><input type="text" name="textnames" id="textnames" size="40">
+				</td>
+			</tr>
+			<tr><td>Email-ID</td>
+				<td><input type="text" name="textnames" id="textnames" size="40">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					File Type
+				</td>
+				<td>
+					<input type="radio" name="file" value="pdf" size="12">PDF
+					<input type="radio" name="file" value="doc" size="12">DOC
+					<input type="radio" name="file" value="jpeg" size="12">JPEG
+					<input type="radio" name="file" value="png" size="12">PNG	
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Upload Notes
+				</td>
+				<td>
+					<label for="myfile">Select a file:</label>
+					<input type="file" id="myfile" name="myfile">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="submit" value="Submit">
+				</td>
+			</tr>
+
+
+
+		</table>
+	</form>
+
+
+
+
+</body>
+</html>
